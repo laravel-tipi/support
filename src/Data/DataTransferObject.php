@@ -7,7 +7,7 @@ namespace Tipi\Support\Data;
 interface DataTransferObject
 {
     /**
-     * @param array<string, mixed> $data
+     * @param  array<string, mixed>  $data
      */
     public static function fromArray(array $data): static;
 
