@@ -12,6 +12,7 @@ final readonly class Locale
         public string $code,
         public string $name,
         public string $nativeName,
+        public ?string $nativeAbbreviation,
         public ?string $countryCode,
         public TextDirection $textDirection,
         private bool $active,
