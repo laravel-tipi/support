@@ -10,6 +10,7 @@ it('exposes locale state', function (): void {
         code: 'en',
         name: 'English',
         nativeName: 'English',
+        nativeAbbreviation: 'EN',
         countryCode: 'GB',
         textDirection: TextDirection::Ltr,
         active: true,
